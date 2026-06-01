@@ -1,0 +1,9 @@
+work-obj93.cf
+*.o
+*.cf
+*.vcd
+*.ghw
+*.log
+*.jou
+*.wlf
+*.tmp
