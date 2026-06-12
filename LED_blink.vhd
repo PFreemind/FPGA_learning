@@ -13,11 +13,10 @@ entity LED_blink is
 end LED_blink;
 
 architecture rtl of LED_blink is
-
-    constant c_CNT_1Hz : natural := 12500000;
-    constant c_CNT_10Hz : natural := 1250000;
-    constant c_CNT_50Hz : natural := 250000;
-    constant c_CNT_100Hz : natural := 125000;
+    constant c_CNT_1Hz   : natural := 10;
+    constant c_CNT_10Hz  : natural := 5;
+    constant c_CNT_50Hz  : natural := 3;
+    constant c_CNT_100Hz : natural := 2;
 
     signal r_CNT_1Hz : natural range 0 to c_CNT_1Hz; 
     signal r_CNT_10Hz : natural range 0 to c_CNT_10Hz; 
